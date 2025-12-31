@@ -1,0 +1,5 @@
+# ProjectRepo
+This project analyzes historical SpaceX Falcon 9 launch data to identify the key factors that influence first-stage booster landing success. Data was collected using the SpaceX REST API and web scraping techniques, then cleaned and explored using SQL, Pandas, and data visualization libraries. Interactive maps were built with Folium to analyze launch site locations and proximities, while an interactive dashboard was developed using Plotly Dash for dynamic data exploration.
+
+Multiple machine learning classification models—including Logistic Regression, Support Vector Machine (SVM), Decision Tree, and K-Nearest Neighbors (KNN)—were trained and evaluated to predict landing outcomes. Among these, the best-performing model achieved strong predictive accuracy, demonstrating that landing success can be effectively predicted using historical mission data. This project showcases an end-to-end data science workflow, from data collection and exploratory analysis to visualization and predictive modeling.
+
